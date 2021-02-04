@@ -6,10 +6,10 @@ using System.Text;
 namespace Entities.Concrete
 {
     //Çıplak Class Kalmasın
-    public class Catagory:IEntity
+    public class Category:IEntity
     {
-        public int CatagoryId { get; set; }
-        public string CatagoryName { get; set; }
+        public int CategoryId { get; set; }
+        public string CategoryName { get; set; }
 
     }
 }
