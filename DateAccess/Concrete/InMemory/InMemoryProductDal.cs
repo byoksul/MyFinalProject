@@ -1,5 +1,6 @@
 ﻿using DateAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -60,6 +61,11 @@ namespace DateAccess.Concrete.InMemory
         {
             return _products.Where(p => p.CategoryID == catagoryId).ToList();
 
+        }
+
+        public List<ProductDetailDto> GetProductsDetails()
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Product product)
