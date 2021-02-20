@@ -32,8 +32,8 @@ namespace WebAPI
             //Autofac,Ninject,CastleWindsor,StructerMap,LightInject,--> IoC Container
             //AOP-->
             services.AddControllers();
-            services.AddSingleton<IProductService,ProductManager>();
-            services.AddSingleton<IProductDal, EfProductDal>();
+            //services.AddSingleton<IProductService,ProductManager>();
+            //services.AddSingleton<IProductDal, EfProductDal>();
 
         }
 
